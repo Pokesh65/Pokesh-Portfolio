@@ -282,9 +282,9 @@ p span {
   opacity: 0;
   transition: 300ms ease-in-out;
   position: absolute;
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 800;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   text-align: center;
   width: 100%;
   padding-top: 20px;
@@ -963,7 +963,7 @@ p span {
     font-weight: bolder;
     font-size: 1.8125em;
     width: 72vw;
-    margin-left: 0.5em;
+    margin-left: 0.8em;
     text-shadow: 1px 1px 2px white;
     font-style: normal;
 
@@ -1068,7 +1068,7 @@ p span {
 
 }
 
-@media (412px <= width <=600px) {
+@media (412px <=width <=600px) {
 
   .Home-Div {
     background-color: transparent;
@@ -1079,7 +1079,7 @@ p span {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
   .container {
     position: absolute;
@@ -1092,38 +1092,40 @@ p span {
     transition: 200ms;
     translate: 0px -7.8125em;
     transition: 200ms;
-}
+  }
 
-.welcome-text~p {
-  width: 80vw;
-  margin-top: 450px;
-  /* margin-left: 10px; */
-  padding: 10px;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  font-size: 20px;
-  font-family: "Cookie", cursive;
-  font-weight: lighter;
-  font-style: normal;
-  word-spacing: 2px;
-  letter-spacing: 1px;
-  line-height: 1.5;
-  overflow: hidden;
-  animation: text-Anime 5s step-start ease-in-out 1s 1 linear forwards, curser .4s step-end infinite forwards;
-  text-align: justify;
-}
+  .welcome-text~p {
+    width: 80vw;
+    margin-top: 450px;
+    /* margin-left: 10px; */
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 20px;
+    font-family: "Cookie", cursive;
+    font-weight: lighter;
+    font-style: normal;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    overflow: hidden;
+    animation: text-Anime 5s step-start ease-in-out 1s 1 linear forwards, curser .4s step-end infinite forwards;
+    text-align: justify;
+  }
 
-.welcome-text {
-  color: black;
-  font-family: "Ms Madi", cursive;
-  font-weight: bolder;
-  font-size: 1.9125em;
-  width: 72vw;
-  margin-top: 30px;
-  margin-left: 3.5em;
-  text-shadow: 1px 1px 2px white;
-  font-style: normal;
-}
-  
-  
+  .welcome-text {
+    color: black;
+    font-family: "Ms Madi", cursive;
+    font-weight: bolder;
+    display: flex;
+    font-size: 1.9125em;
+    width: 72vw;
+    margin-top: 30px;
+    /* margin-left: 1.5em; */
+    text-shadow: 1px 1px 2px white;
+    font-style: normal;
+    justify-content: center;
+  }
+
+
 }
